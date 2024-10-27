@@ -1,6 +1,6 @@
 # 在 macOS 用 UTM 安裝 Ubuntu Server 的教學
 
-在 macOS 上使用 UTM 安裝 Ubuntu Server 是一個簡單且方便的方法，可以在不影響主機系統的情況下，體驗和測試 Ubuntu Server 的功能。以下是詳細的安裝教學。
+在 macOS 上使用 [UTM](utm.md) 安裝 Ubuntu Server 是一個簡單且方便的方法，可以在不影響主機系統的情況下，體驗和測試 Ubuntu Server 的功能。以下是詳細的安裝教學。
 
 ## 前置準備
 
@@ -99,16 +99,19 @@
      sudo apt update
      sudo apt upgrade -y
      ```
+
    - 這樣可以確保你的 Ubuntu Server 是最新版本，具有最新的安全補丁。
 
 3. **連接至 SSH**
 
    - 確認虛擬機的 IP 地址（可以使用 `ip a` 命令查看）。
+
    - 在 Mac 的終端機上使用以下命令連接到 Ubuntu Server：
 
      ```bash
      ssh your_username@your_server_ip
      ```
+
    - 輸入密碼後即可透過 SSH 遠端管理你的 Ubuntu Server。
 
 ## 結語
